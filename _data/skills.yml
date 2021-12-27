@@ -1,0 +1,33 @@
+languages:
+  - item: JavaScript (ES6)
+  - item: HTML/CSS
+  - item: Python
+  - item: SQL
+  - item: Bash
+
+frameworks:
+  - item: React
+  - item: Flask
+  - item: Vue
+  - item: Node
+
+tools:
+  - item: Git & Github
+  - item: Chrome DevTools
+  - item: Postman
+
+cloud:
+  - item: AWS
+  - item: GCP
+  - item: Netlify
+  - item: Heroku
+
+database:
+  - item: MySQL
+  - item: MongoDB
+
+design:
+  - item: Figma
+  - item: Prototyping
+  - item: Wireframing
+  - item: User Testing
