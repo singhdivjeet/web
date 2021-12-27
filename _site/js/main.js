@@ -83,7 +83,6 @@ $(function() {
 		scale: 1,
 		viewFactor: 0.3,
 	});
-
 	const preloader = document.querySelector(".preloader");
 
 	const fadeEffect = setInterval(() => {
@@ -97,10 +96,9 @@ $(function() {
 		} else {
 			clearInterval(fadeEffect);
 		}
-	}, 4000);
+	}, 3000);
 
 	window.addEventListener("load", fadeEffect);
-
 	sr.reveal(".background");
 	sr.reveal(".skills");
 	sr.reveal(".experience", { viewFactor: 0.2 });
