@@ -1,0 +1,6 @@
+- name: Android Malware Detection based on Vulnerable Feature Aggregation
+  url: https://www.sciencedirect.com/science/article/pii/S1877050920315441?via%3Dihub
+  code: https://www.sciencedirect.com/science/article/pii/S1877050920315441?via%3Dihub
+  description: Published in <a class="underline-link" href="https://www.sciencedirect.com/science/article/pii/S1877050920315441?via%3Dihub">Procedia Computer Science 2020 Journal</a> and presented at International Conference on Smart Sustainable Intelligent Computing and Applications under ICITETM 2020
+  used:
+    - thing: paper link

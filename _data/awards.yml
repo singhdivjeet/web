@@ -1,0 +1,7 @@
+- name: <strong>InCTF 2018, National Level Cybersecurity Competition</strong>
+  url: https://ctftime.org/ctf/31/
+  code: https://ctftime.org/ctf/31/
+  description: <a class="underline-link" href="https://www.inctf.in/">InCTF</a> had both jeopardy style CTF and Attack-Defence style CTF. My team secured 14th rank out of 350+ teams (across India) in jeopardy style CTF and qualified for the finals which were held in Amrita Vishwa Vidyapeetham University.We<strong>  secured 8th rank out of the 30 finalists</strong> in an attack-defense style CTF.
+  used:
+    - thing: Amrita Vishwa Vidyapeetham University, Kerala
+    - thing: Dec, 2018
