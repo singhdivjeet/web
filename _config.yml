@@ -2,12 +2,12 @@
 name: Divjeet Singh Jas
 title: Divjeet Singh Jas | Front End Software Engineer
 description: Design-minded front-end software engineer focused on building beautiful interfaces and experiences
-url: https://singhdivjeet.github.io/
-baseurl: ''
+url: https://singhdivjeet.github.io/portfolio-website-v2/
+baseurl: 'https://singhdivjeet.github.io/portfolio-website-v2'
 email: djas@ucdavis.edu
-cover: https://singhdivjeet.github.io/img/og.png
-logo: https://singhdivjeet.github.io/img/emojis/technologist.png
-resume: https://singhdivjeet.github.io/resume.pdf
+cover: https://singhdivjeet.github.io/portfolio-website-v2/img/og.png
+logo: https://singhdivjeet.github.io/portfolio-website-v2/img/emojis/technologist.png
+resume: https://singhdivjeet.github.io/portfolio-website-v2/resume.pdf
 social:
   - title: email
     url: mailto:djas@ucdavis.edu
