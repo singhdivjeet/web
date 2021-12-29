@@ -1,18 +1,7 @@
 $(function() {
-	const appearancePreference = window.localStorage.getItem(
-		"appearancePreference"
-	);
-	let night = appearancePreference === "dark";
-	if (!appearancePreference) {
-		const d = new Date();
-		const hours = d.getHours();
-		night =
-			(window.matchMedia &&
-				window.matchMedia("(prefers-color-scheme: dark)").matches) ||
-			hours >= 19 ||
-			hours <= 7; // between 7pm and 7am or if preference is dark
-	}
-
+	const d = new Date();
+	const hours = d.getHours();
+	const night = hours >= 19 || hours <= 7; // between 7pm and 7am
 	const body = document.querySelector("body");
 	const toggle = document.getElementById("toggle");
 	const input = document.getElementById("switch");
@@ -26,12 +15,43 @@ $(function() {
 		const isChecked = input.checked;
 		if (isChecked) {
 			body.classList.remove("night");
-			window.localStorage.setItem("appearancePreference", "light");
 		} else {
 			body.classList.add("night");
-			window.localStorage.setItem("appearancePreference", "dark");
 		}
 	});
+	// const appearancePreference = window.localStorage.getItem(
+	// 	"appearancePreference"
+	// );
+	// let night = appearancePreference === "dark";
+	// if (!appearancePreference) {
+	// 	const d = new Date();
+	// 	const hours = d.getHours();
+	// 	night =
+	// 		(window.matchMedia &&
+	// 			window.matchMedia("(prefers-color-scheme: dark)").matches) ||
+	// 		hours >= 19 ||
+	// 		hours <= 7; // between 7pm and 7am or if preference is dark
+	// }
+
+	// const body = document.querySelector("body");
+	// const toggle = document.getElementById("toggle");
+	// const input = document.getElementById("switch");
+
+	// if (night) {
+	// 	input.checked = true;
+	// 	body.classList.add("night");
+	// }
+
+	// toggle.addEventListener("click", function() {
+	// 	const isChecked = input.checked;
+	// 	if (isChecked) {
+	// 		body.classList.remove("night");
+	// 		window.localStorage.setItem("appearancePreference", "light");
+	// 	} else {
+	// 		body.classList.add("night");
+	// 		window.localStorage.setItem("appearancePreference", "dark");
+	// 	}
+	// });
 
 	if (window.location.pathname !== "/") return;
 
