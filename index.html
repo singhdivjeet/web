@@ -2,7 +2,19 @@
 layout: default
 ---
 
-<div class="custom-cursor" id="site">
+<div class="customcursor" id="site">
+	<div
+		style="text-align: center; padding-top: 5rem; padding-left: 3rem;padding-right: 3rem;"
+	>
+		<a style="padding: 0 0.75rem;" href="#background">Background</a>/
+		<a style="padding: 0 0.75rem;" href="#skills">Skills</a>/
+		<a style="padding: 0 0.75rem;" href="#exp">Experience</a>/
+		<a style="padding: 0 0.75rem;" href="#fp">Featured Projects</a>/
+		<a style="padding: 0 0.75rem;" href="#op">Other Projects</a>/
+		<a style="padding: 0 0.75rem;" href="#p">Publications</a>/
+		<a style="padding: 0 0.75rem;" href="#a">Awards</a>
+	</div>
+
 	<!-- <div class="preloader">
 		<svg
 			width="50"
@@ -73,9 +85,15 @@ layout: default
 			</circle>
 		</svg>
 	</div> -->
-	{% include logo.html %}{% include switch.html %} {% include intro.html %} {%
-	include background.html %} {% include skills.html %} {% include
-	experience.html %} {% include featured-projects.html %} {% include
-	other-projects.html %} {% include publications.html %} {% include awards.html
-	%} {% include footer.html %} {% include top-button.html %}
+	<!-- {% include logo.html %} -->
+	{% include switch.html %} {% include intro.html %}
+	<div id="background">{%include background.html %}</div>
+	<div id="skills">{% include skills.html %}</div>
+
+	<div id="exp">{% include experience.html %}</div>
+	<div id="fp">{% include featured-projects.html %}</div>
+	<div id="op">{% include other-projects.html %}</div>
+	<div id="p">{% include publications.html %}</div>
+	<div id="a">{% include awards.html %}</div>
+	{% include footer.html %} {% include top-button.html %}
 </div>

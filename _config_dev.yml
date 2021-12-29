@@ -11,14 +11,10 @@ resume: https://singhdivjeet.github.io/portfolio-website-v2/resume.pdf
 social:
   - title: email
     url: mailto:djas@ucdavis.edu
-  - title: twitter
-    url: https://twitter.com/singhdivjeet
-  - title: instagram
-    url: https://www.instagram.com/singhdivjeet/
-  - title: github
-    url: https://github.com/singhdivjeet
   - title: linkedin
     url: https://www.linkedin.com/in/divjeet-singh/
+  - title: github
+    url: https://github.com/singhdivjeet
 
 # Build settings
 markdown: kramdown
