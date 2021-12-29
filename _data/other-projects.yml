@@ -25,7 +25,7 @@
   url: https://covid19-dashboard-div.netlify.app/
   code: https://github.com/singhdivjeet/COVID19-DASHBOARD
   description: Dashboard developed using React.js, Chart.js, and COVID Time-Series API(Pomber) that shows the dynamics of the spread of coronavirus distribution per country.
-  # A minimal, dark theme for Sublime Text, Atom, VS Code, and more published to <a class="underline-link" href="https://packagecontrol.io/packages/Halcyon%20Theme">Package Control</a>, <a class="underline-link" href="https://atom.io/themes/halcyon-syntax">Atom Package Manager</a>, <a class="underline-link" href="https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode">Visual Studio Marketplace</a>, and <a class="underline-link" href="https://www.npmjs.com/package/hyper-halcyon-theme">NPM</a>.
+
   used:
     - thing: React.js
     - thing: Chart.js
